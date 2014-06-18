@@ -650,6 +650,6 @@ head(aveData)
 # Write the tidy data set to a file called tidy.csv
 #--------------------------------------------------------------------
 if (!file.exists("./data")) { dir.create("./data")}
-write.csv(aveData, file="./data/tidy.csv")
+write.table(aveData, file="./data/tidy.txt")
 
 }
