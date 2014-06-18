@@ -15,3 +15,8 @@ Appropriately labels the data set with descriptive variable names, by removing a
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 Writes the tidy data set to ./data/tidy.txt
+
+
+To run the script:
+1. extract the UCI HAR dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  into the ./UCI HAR Dataset folder under the working directory
+2. Run run_analysis()
